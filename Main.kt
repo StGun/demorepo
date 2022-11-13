@@ -19,3 +19,17 @@ class LibraryFragment : Fragment() {
         return binding.root
     }
 }
+
+
+
+class SubscriptionsFragment : Fragment() {
+    private lateinit var binding: FragmentSubscriptionsBinding
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?): View? {
+        binding = FragmentSubscriptionsBinding.inflate(inflater, container, false)
+
+
+        return binding.root
+    }
+}
